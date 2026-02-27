@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_base_ship",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_base_ship",
+  "parent":{
+    "name":"PlayerBase",
+    "path":"folders/Scripts/PlayerBase.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
