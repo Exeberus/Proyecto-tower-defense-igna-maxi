@@ -39,7 +39,6 @@
     {"id":{"name":"spr_small_stellarite","path":"sprites/spr_small_stellarite/spr_small_stellarite.yy",},},
     {"id":{"name":"obj_space_ship_base","path":"objects/obj_space_ship_base/obj_space_ship_base.yy",},},
     {"id":{"name":"obj_turret_bay","path":"objects/obj_turret_bay/obj_turret_bay.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"script_base_ship","path":"scripts/script_base_ship/script_base_ship.yy",},},
     {"id":{"name":"script_turret_bay","path":"scripts/script_turret_bay/script_turret_bay.yy",},},
     {"id":{"name":"spr_ArrowBolt_proyectile","path":"sprites/spr_ArrowBolt_proyectile/spr_ArrowBolt_proyectile.yy",},},
