@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_turret_bay",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_turret_bay",
+  "parent":{
+    "name":"PlayerBase",
+    "path":"folders/Scripts/PlayerBase.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
