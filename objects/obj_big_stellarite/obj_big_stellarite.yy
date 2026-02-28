@@ -9,7 +9,10 @@
     "name":"Lvl_1",
     "path":"folders/Objects/Asteroids/Lvl_1.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_stellarite_father",
+    "path":"objects/obj_stellarite_father/obj_stellarite_father.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

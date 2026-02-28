@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mineral_stellarite_l1",
+  "%Name":"obj_shot",
   "eventList":[],
   "managed":true,
-  "name":"obj_mineral_stellarite_l1",
+  "name":"obj_shot",
   "overriddenProperties":[],
   "parent":{
-    "name":"mineral_stellarite_lvls",
-    "path":"folders/Objects/Asteroids/Lvl_1/mineral_stellarite_lvls.yy",
+    "name":"Tests",
+    "path":"folders/Objects/Tests.yy",
   },
-  "parentObjectId":{
-    "name":"obj_stellarite_father",
-    "path":"objects/obj_stellarite_father/obj_stellarite_father.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
