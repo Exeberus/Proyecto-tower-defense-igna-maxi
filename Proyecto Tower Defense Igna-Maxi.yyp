@@ -20,6 +20,7 @@
     {"$GMFolder":"","%Name":"Spaceship","folderPath":"folders/Objects/Spaceship.yy","name":"Spaceship","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tests","folderPath":"folders/Objects/Tests.yy","name":"Tests","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Animations","folderPath":"folders/Scripts/Animations.yy","name":"Animations","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"PlayerBase","folderPath":"folders/Scripts/PlayerBase.yy","name":"PlayerBase","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Asteroids_sprites","folderPath":"folders/Sprites/Asteroids_sprites.yy","name":"Asteroids_sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -41,6 +42,7 @@
   "name":"Proyecto Tower Defense Igna-Maxi",
   "resources":[
     {"id":{"name":"obj_big_stellarite","path":"objects/obj_big_stellarite/obj_big_stellarite.yy",},},
+    {"id":{"name":"obj_generator_particle","path":"objects/obj_generator_particle/obj_generator_particle.yy",},},
     {"id":{"name":"obj_mineral_stellarite_l1","path":"objects/obj_mineral_stellarite_l1/obj_mineral_stellarite_l1.yy",},},
     {"id":{"name":"obj_shot","path":"objects/obj_shot/obj_shot.yy",},},
     {"id":{"name":"obj_small_stellarite","path":"objects/obj_small_stellarite/obj_small_stellarite.yy",},},
@@ -48,6 +50,7 @@
     {"id":{"name":"obj_stellarite_father","path":"objects/obj_stellarite_father/obj_stellarite_father.yy",},},
     {"id":{"name":"obj_turret_bay","path":"objects/obj_turret_bay/obj_turret_bay.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"script_asteroid_explosion","path":"scripts/script_asteroid_explosion/script_asteroid_explosion.yy",},},
     {"id":{"name":"script_base_ship","path":"scripts/script_base_ship/script_base_ship.yy",},},
     {"id":{"name":"script_turret_bay","path":"scripts/script_turret_bay/script_turret_bay.yy",},},
     {"id":{"name":"spr_ArrowBolt_proyectile","path":"sprites/spr_ArrowBolt_proyectile/spr_ArrowBolt_proyectile.yy",},},
