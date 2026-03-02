@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shot",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_shield_father","path":"objects/obj_shield_father/obj_shield_father.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_stellarite_armor_mk1",
+  "eventList":[],
   "managed":true,
-  "name":"obj_shot",
+  "name":"obj_stellarite_armor_mk1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tests",
-    "path":"folders/Objects/Tests.yy",
+    "name":"Armor Shield",
+    "path":"folders/Objects/Spaceship/Shields/Armor Shield.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_shield_father",
+    "path":"objects/obj_shield_father/obj_shield_father.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_stellarite_armor_mk1",
+    "path":"sprites/spr_stellarite_armor_mk1/spr_stellarite_armor_mk1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
