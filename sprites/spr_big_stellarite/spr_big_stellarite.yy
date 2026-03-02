@@ -45,7 +45,7 @@
   "origin":4,
   "parent":{
     "name":"Lvl_1",
-    "path":"folders/Sprites/Asteroids_sprites/Lvl_1.yy",
+    "path":"folders/Sprites/Asteroids Sprites/Lvl_1.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
