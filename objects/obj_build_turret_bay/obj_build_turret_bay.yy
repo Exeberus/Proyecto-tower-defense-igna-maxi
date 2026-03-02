@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_turret_arrowbolt",
+  "%Name":"obj_build_turret_bay",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_turret_arrowbolt",
+  "name":"obj_build_turret_bay",
   "overriddenProperties":[],
   "parent":{
-    "name":"Arrow Bolt",
-    "path":"folders/Objects/Spaceship/Turrets/Arrow Bolt.yy",
+    "name":"Building",
+    "path":"folders/Objects/Spaceship/Building.yy",
   },
-  "parentObjectId":{
-    "name":"obj_turret_config",
-    "path":"objects/obj_turret_config/obj_turret_config.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,7 +25,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"object_build_type","filters":[],"listItems":[],"multiselect":false,"name":"object_build_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":2,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
