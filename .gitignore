@@ -76,3 +76,27 @@ cache/
 # Carpeta compilada
 *.win
 *.exe
+
+#GameMaker para errores de exportacion
+local/
+remote/
+*.user
+*.config
+layout.xml
+
+# Archivos de autoguardado y temporales
+_temp/
+archived/
+*.rsav
+*.bak
+*.old
+*.resource_order
+
+# Carpetas de exportación y compilación
+export/
+options/main/inherited/
+
+# Evitar subir el instalador si compilan el juego
+*.zip
+*.msi
+*.exe

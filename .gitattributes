@@ -6,3 +6,5 @@
 *.yy text eol=lf
 *.yyp text eol=lf
 *.json text eol=lf
+*.yy merge=union
+*.yyp merge=union
