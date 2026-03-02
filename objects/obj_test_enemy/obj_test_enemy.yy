@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet_arrowbolt",
+  "%Name":"obj_test_enemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_test_enemy","path":"objects/obj_test_enemy/obj_test_enemy.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bullet_arrowbolt","path":"objects/obj_bullet_arrowbolt/obj_bullet_arrowbolt.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bullet_arrowbolt",
+  "name":"obj_test_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Arrow Bolt",
-    "path":"folders/Objects/Spaceship/Turrets/Arrow Bolt.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ArrowBolt_proyectile",
-    "path":"sprites/spr_ArrowBolt_proyectile/spr_ArrowBolt_proyectile.yy",
+    "name":"spr_test_enemy",
+    "path":"sprites/spr_test_enemy/spr_test_enemy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

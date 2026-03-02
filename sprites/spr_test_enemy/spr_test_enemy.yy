@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_small_stellarite",
+  "%Name":"spr_test_enemy",
   "bboxMode":0,
   "bbox_bottom":31,
   "bbox_left":0,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5d6e0ef9-0b48-4bea-9f7a-ebf7b4829e0f","name":"5d6e0ef9-0b48-4bea-9f7a-ebf7b4829e0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"140360b6-c670-4107-a94d-2d2c323ca12f","name":"140360b6-c670-4107-a94d-2d2c323ca12f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"34c00ccc-fa08-41cc-aa43-8cf96dc39dde","blendMode":0,"displayName":"default","isLocked":false,"name":"34c00ccc-fa08-41cc-aa43-8cf96dc39dde","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e19c53c6-f080-44a2-8abe-1706815f74d9","blendMode":0,"displayName":"default","isLocked":false,"name":"e19c53c6-f080-44a2-8abe-1706815f74d9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_small_stellarite",
+  "name":"spr_test_enemy",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Lvl_1",
-    "path":"folders/Sprites/Asteroids Sprites/Lvl_1.yy",
+    "name":"Test",
+    "path":"folders/Sprites/Test.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_small_stellarite",
+    "%Name":"spr_test_enemy",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_small_stellarite",
+    "name":"spr_test_enemy",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5d6e0ef9-0b48-4bea-9f7a-ebf7b4829e0f","path":"sprites/spr_small_stellarite/spr_small_stellarite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"145400e1-e896-4642-9454-1d7dfba0aa2a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"140360b6-c670-4107-a94d-2d2c323ca12f","path":"sprites/spr_test_enemy/spr_test_enemy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"549e7111-5c67-4363-9670-b17af32d9291","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
