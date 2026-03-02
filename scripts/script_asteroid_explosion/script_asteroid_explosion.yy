@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_asteroid_explosion",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_asteroid_explosion",
+  "parent":{
+    "name":"Animations",
+    "path":"folders/Scripts/Animations.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

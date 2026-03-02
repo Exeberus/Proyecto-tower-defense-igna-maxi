@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_big_stellarite",
+  "%Name":"obj_generator_particle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_big_stellarite",
+  "name":"obj_generator_particle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Lvl_1",
-    "path":"folders/Objects/Asteroids/Lvl_1.yy",
+    "name":"Game Particles",
+    "path":"folders/Objects/Game Particles.yy",
   },
-  "parentObjectId":{
-    "name":"obj_stellarite_father",
-    "path":"objects/obj_stellarite_father/obj_stellarite_father.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_big_stellarite",
-    "path":"sprites/spr_big_stellarite/spr_big_stellarite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
