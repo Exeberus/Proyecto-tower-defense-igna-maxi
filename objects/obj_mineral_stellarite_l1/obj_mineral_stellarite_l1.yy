@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_mineral_stellarite_l1",
+    "path":"sprites/spr_mineral_stellarite_l1/spr_mineral_stellarite_l1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
