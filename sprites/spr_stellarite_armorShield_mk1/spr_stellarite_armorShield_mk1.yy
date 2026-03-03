@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_stellarite_armor_mk1",
+  "%Name":"spr_stellarite_armorShield_mk1",
   "bboxMode":0,
   "bbox_bottom":31,
   "bbox_left":0,
@@ -24,7 +24,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"2c1758ff-ffc0-40f3-b588-cb8c5b5ed815","blendMode":0,"displayName":"default","isLocked":false,"name":"2c1758ff-ffc0-40f3-b588-cb8c5b5ed815","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_stellarite_armor_mk1",
+  "name":"spr_stellarite_armorShield_mk1",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -36,7 +36,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_stellarite_armor_mk1",
+    "%Name":"spr_stellarite_armorShield_mk1",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_stellarite_armor_mk1",
+    "name":"spr_stellarite_armorShield_mk1",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -72,16 +72,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90f38f8e-8de7-4d8f-a77b-49c31884db0f","path":"sprites/spr_stellarite_armor_mk1/spr_stellarite_armor_mk1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90f38f8e-8de7-4d8f-a77b-49c31884db0f","path":"sprites/spr_stellarite_armorShield_mk1/spr_stellarite_armorShield_mk1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a31ba785-f01b-4eb1-82e4-abc3af90957a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3631ed60-2b4f-4876-b373-c599984215fe","path":"sprites/spr_stellarite_armor_mk1/spr_stellarite_armor_mk1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3631ed60-2b4f-4876-b373-c599984215fe","path":"sprites/spr_stellarite_armorShield_mk1/spr_stellarite_armorShield_mk1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"47f5fe7f-c194-4948-bef6-009b0e19213d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"375b07ca-9862-40c3-933a-35829a808ce9","path":"sprites/spr_stellarite_armor_mk1/spr_stellarite_armor_mk1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"375b07ca-9862-40c3-933a-35829a808ce9","path":"sprites/spr_stellarite_armorShield_mk1/spr_stellarite_armorShield_mk1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"fc018967-982e-4cf0-8703-818d34f5a2aa","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"296ad257-3c47-46d3-b5c7-68109eb6bd47","path":"sprites/spr_stellarite_armor_mk1/spr_stellarite_armor_mk1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"296ad257-3c47-46d3-b5c7-68109eb6bd47","path":"sprites/spr_stellarite_armorShield_mk1/spr_stellarite_armorShield_mk1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"5897a149-d04c-4496-a1b7-b008bc87a231","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

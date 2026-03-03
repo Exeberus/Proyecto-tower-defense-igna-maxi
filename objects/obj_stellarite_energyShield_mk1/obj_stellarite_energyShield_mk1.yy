@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stellarite_armor_mk1",
-  "eventList":[],
+  "%Name":"obj_stellarite_energyShield_mk1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_stellarite_armor_mk1",
+  "name":"obj_stellarite_energyShield_mk1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Armor Shield",
-    "path":"folders/Objects/Spaceship/Shields/Armor Shield.yy",
+    "name":"Energy Shield",
+    "path":"folders/Objects/Spaceship/Shields/Energy Shield.yy",
   },
   "parentObjectId":{
     "name":"obj_shield_father",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stellarite_armor_mk1",
-    "path":"sprites/spr_stellarite_armor_mk1/spr_stellarite_armor_mk1.yy",
+    "name":"spr_stellarite_energyShield_mk1",
+    "path":"sprites/spr_stellarite_energyShield_mk1/spr_stellarite_energyShield_mk1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

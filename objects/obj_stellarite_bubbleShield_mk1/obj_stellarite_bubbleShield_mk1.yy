@@ -1,20 +1,23 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shield_father",
+  "%Name":"obj_stellarite_bubbleShield_mk1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bullet_arrowbolt","path":"objects/obj_bullet_arrowbolt/obj_bullet_arrowbolt.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bulletTest","path":"objects/obj_bulletTest/obj_bulletTest.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shield_father",
+  "name":"obj_stellarite_bubbleShield_mk1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Shields",
-    "path":"folders/Objects/Spaceship/Shields.yy",
+    "name":"Bubble Shield",
+    "path":"folders/Objects/Spaceship/Shields/Bubble Shield.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_shield_father",
+    "path":"objects/obj_shield_father/obj_shield_father.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_stellarite_bubbleShield_mk1",
+    "path":"sprites/spr_stellarite_bubbleShield_mk1/spr_stellarite_bubbleShield_mk1.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,9 +1,19 @@
 shieldActive = true;
 shieldHp = 10;
+shieldActualHp = shieldHp;
 shieldHpPorcentage = shieldHp / 4;
 
-regenRateTime = 120;
-regenRate = 0;
+canRegen = false;
+regenRateTime = 120; //Tiempo cada Regeneracion Realizada
+countRegenRate = 0;  //Contador para que se haga Regeneracion
+armorRegenCant = 0; //Cantidad a Regenerar
 
-armorRegenRate = 0;
-armorRegenCant = 0;
+function bulletCollision(){
+	if(!(shieldActualHp <= 0)){
+		shieldActualHp -= other.proyectile_dmg
+		instance_destroy(other);
+	} else{
+		shieldActive = false;
+		shieldActualHp = 0;
+	}
+}
