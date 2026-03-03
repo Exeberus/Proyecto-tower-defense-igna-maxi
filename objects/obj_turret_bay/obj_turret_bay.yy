@@ -6,8 +6,8 @@
   "name":"obj_turret_bay",
   "overriddenProperties":[],
   "parent":{
-    "name":"Spaceship",
-    "path":"folders/Objects/Spaceship.yy",
+    "name":"Base",
+    "path":"folders/Objects/Spaceship/Turrets/Base.yy",
   },
   "parentObjectId":null,
   "persistent":false,

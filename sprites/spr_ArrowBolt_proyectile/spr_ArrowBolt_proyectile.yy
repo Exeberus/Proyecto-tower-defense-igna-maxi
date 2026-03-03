@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"ArrowBolt",
-    "path":"folders/Sprites/Turrets/Attack Turrets/ArrowBolt.yy",
+    "path":"folders/Sprites/Spaceship/Turrets/Attack Turrets/ArrowBolt.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

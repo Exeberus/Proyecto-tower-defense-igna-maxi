@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"mineral_stelarite_lvls",
-    "path":"folders/Sprites/Asteroids Sprites/Lvl_1/mineral_stelarite_lvls.yy",
+    "path":"folders/Sprites/Asteroids/Lvl_1/mineral_stelarite_lvls.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

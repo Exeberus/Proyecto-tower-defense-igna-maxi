@@ -10,8 +10,8 @@
   "name":"obj_test_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"maxi_tests",
+    "path":"folders/Objects/Tests/maxi_tests.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Base",
-    "path":"folders/Sprites/Turrets/Base.yy",
+    "path":"folders/Sprites/Spaceship/Turrets/Base.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

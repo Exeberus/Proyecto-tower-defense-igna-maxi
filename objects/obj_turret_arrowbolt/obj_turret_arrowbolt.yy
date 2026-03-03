@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Arrow Bolt",
-    "path":"folders/Objects/Spaceship/Turrets/Arrow Bolt.yy",
+    "path":"folders/Objects/Spaceship/Turrets/Attack Turrets/Arrow Bolt.yy",
   },
   "parentObjectId":{
     "name":"obj_turret_config",

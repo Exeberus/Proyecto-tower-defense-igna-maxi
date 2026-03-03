@@ -8,8 +8,8 @@
   "name":"obj_shot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Tests",
-    "path":"folders/Objects/Tests.yy",
+    "name":"igna_tests",
+    "path":"folders/Objects/Tests/igna_tests.yy",
   },
   "parentObjectId":null,
   "persistent":false,

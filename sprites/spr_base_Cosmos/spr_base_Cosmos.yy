@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Cosmos",
-    "path":"folders/Sprites/Turrets/Base/Cosmos.yy",
+    "path":"folders/Sprites/Spaceship/Turrets/Base/Cosmos.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
