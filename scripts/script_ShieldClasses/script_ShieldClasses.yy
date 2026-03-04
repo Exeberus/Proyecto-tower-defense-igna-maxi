@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_ShieldClasses",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_ShieldClasses",
+  "parent":{
+    "name":"Shields",
+    "path":"folders/Scripts/Spaceship/Shields.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

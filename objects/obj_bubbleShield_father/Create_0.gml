@@ -1,0 +1,1 @@
+myShield = new BubbleShield(5, false, 0, id, obj_stellarite_bubbleField_mk1);

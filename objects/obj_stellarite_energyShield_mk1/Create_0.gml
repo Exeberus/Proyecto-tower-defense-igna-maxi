@@ -1,4 +1,4 @@
 event_inherited();
 
-canRegen = true;
-armorRegenCant = 1;
+myShield.canRegen = true;
+myShield.armorRegenCant = 1;

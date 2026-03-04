@@ -6,8 +6,8 @@
   "name":"obj_stellarite_armorShield_mk1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Armor Shield",
-    "path":"folders/Objects/Spaceship/Shields/Armor Shield.yy",
+    "name":"Stellarite",
+    "path":"folders/Objects/Spaceship/Shields/Armor Shield/Stellarite.yy",
   },
   "parentObjectId":{
     "name":"obj_shield_father",

@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
   "%Name":"obj_stellarite_bubbleField_mk1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bulletTest","path":"objects/obj_bulletTest/obj_bulletTest.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_stellarite_bubbleField_mk1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bubble Shield",
-    "path":"folders/Objects/Spaceship/Shields/Bubble Shield.yy",
+    "name":"Stellarite",
+    "path":"folders/Objects/Spaceship/Shields/Bubble Shield/Stellarite.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_bubbleField_father",
+    "path":"objects/obj_bubbleField_father/obj_bubbleField_father.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
