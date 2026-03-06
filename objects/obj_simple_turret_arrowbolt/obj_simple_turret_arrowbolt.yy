@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mineral_stellarite_l1",
+  "%Name":"obj_simple_turret_arrowbolt",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_mineral_stellarite_l1",
+  "name":"obj_simple_turret_arrowbolt",
   "overriddenProperties":[],
   "parent":{
-    "name":"mineral_stellarite_lvls",
-    "path":"folders/Objects/Asteroids/Lvl_1/mineral_stellarite_lvls.yy",
+    "name":"Arrow Bolt",
+    "path":"folders/Objects/Spaceship/Turrets/Attack Turrets/Arrow Bolt.yy",
   },
   "parentObjectId":{
-    "name":"obj_stellarite_father",
-    "path":"objects/obj_stellarite_father/obj_stellarite_father.yy",
+    "name":"obj_turret_config",
+    "path":"objects/obj_turret_config/obj_turret_config.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mineral_stellarite_l1",
-    "path":"sprites/spr_mineral_stellarite_l1/spr_mineral_stellarite_l1.yy",
+    "name":"spr_simple_turret_arrowbolt",
+    "path":"sprites/spr_simple_turret_arrowbolt/spr_simple_turret_arrowbolt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

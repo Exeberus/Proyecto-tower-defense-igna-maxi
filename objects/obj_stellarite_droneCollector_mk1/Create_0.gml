@@ -1,0 +1,2 @@
+
+myDroneCollector = noone; 

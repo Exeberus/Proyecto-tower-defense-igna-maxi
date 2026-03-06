@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_DobleArrowBolt",
-    "path":"sprites/spr_DobleArrowBolt/spr_DobleArrowBolt.yy",
+    "name":"spr_doble_turret_arrowbolt",
+    "path":"sprites/spr_doble_turret_arrowbolt/spr_doble_turret_arrowbolt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

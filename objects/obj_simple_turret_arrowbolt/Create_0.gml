@@ -9,7 +9,7 @@ turret_defense = 1;
 turret_range = 700;
 
 // Movimiento - -
-turret_rot_spd = 1.5;
+turret_rot_spd = 3;
 
 // Proyectil - -
 turret_proyectile_spd = 8;
