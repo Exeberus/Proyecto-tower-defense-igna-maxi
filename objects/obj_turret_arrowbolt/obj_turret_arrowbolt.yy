@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ArrowBolt",
-    "path":"sprites/spr_ArrowBolt/spr_ArrowBolt.yy",
+    "name":"spr_turret_arrowbolt",
+    "path":"sprites/spr_turret_arrowbolt/spr_turret_arrowbolt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

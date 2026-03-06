@@ -21,3 +21,6 @@ turret_reload_time = 0;
 
 // Variables Main de OBJ - -
 direction = 0;
+
+// Declarar posicion de instancia
+layer = layer_get_id("Turrets");

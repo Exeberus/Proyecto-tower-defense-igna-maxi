@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ArrowBolt_proyectile",
-    "path":"sprites/spr_ArrowBolt_proyectile/spr_ArrowBolt_proyectile.yy",
+    "name":"spr_arrowbolt_proyectile",
+    "path":"sprites/spr_arrowbolt_proyectile/spr_arrowbolt_proyectile.yy",
   },
   "spriteMaskId":null,
   "visible":true,
