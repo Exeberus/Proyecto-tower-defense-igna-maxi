@@ -33,6 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
+    "name":"spr_turret_arrowbolt",
+    "path":"sprites/spr_turret_arrowbolt/spr_turret_arrowbolt.yy",
     "name":"spr_sniper_turret_arrowbolt",
     "path":"sprites/spr_sniper_turret_arrowbolt/spr_sniper_turret_arrowbolt.yy",
   },

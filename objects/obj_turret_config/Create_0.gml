@@ -25,3 +25,6 @@ turret_shooting_time = 0;
 turret_actual_dispersion = 0;
 // Variables Main de OBJ - -
 direction = 0;
+
+// Declarar posicion de instancia
+layer = layer_get_id("Turrets");

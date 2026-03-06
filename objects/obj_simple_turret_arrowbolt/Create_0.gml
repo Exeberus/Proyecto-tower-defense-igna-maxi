@@ -14,7 +14,8 @@ turret_rot_spd = 3;
 // Proyectil - -
 turret_proyectile_spd = 8;
 turret_proyectile_dmg = 1;
-turret_proyectile_spr = spr_ArrowBolt_proyectile;
+turret_shoot_disperse = 9;
+turret_proyectile_spr = spr_arrowbolt_proyectile;
 turret_bullet = obj_bullet_arrowbolt;
 
 turret_is_dispersable = true;
