@@ -1,1 +1,0 @@
-myShield.bulletCollision(other);

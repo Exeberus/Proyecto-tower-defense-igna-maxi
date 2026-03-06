@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_turret_arrowbolt",
+  "%Name":"obj_stellarite_droneCollector_mk1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_turret_arrowbolt",
+  "name":"obj_stellarite_droneCollector_mk1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Arrow Bolt",
-    "path":"folders/Objects/Spaceship/Turrets/Attack Turrets/Arrow Bolt.yy",
+    "name":"Drone Colectors",
+    "path":"folders/Objects/Spaceship/Minerals Storage/Drone Colectors.yy",
   },
-  "parentObjectId":{
-    "name":"obj_turret_config",
-    "path":"objects/obj_turret_config/obj_turret_config.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_turret_arrowbolt",
-    "path":"sprites/spr_turret_arrowbolt/spr_turret_arrowbolt.yy",
+    "name":"spr_stellarite_droneCollector_mk1",
+    "path":"sprites/spr_stellarite_droneCollector_mk1/spr_stellarite_droneCollector_mk1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

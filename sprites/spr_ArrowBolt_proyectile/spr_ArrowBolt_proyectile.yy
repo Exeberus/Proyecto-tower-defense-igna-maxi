@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"ArrowBolt",
-    "path":"folders/Sprites/Spaceship/Turrets/Attack Turrets/ArrowBolt.yy",
+    "name":"Ally Bullets",
+    "path":"folders/Sprites/Spaceship/Bullets/Ally Bullets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

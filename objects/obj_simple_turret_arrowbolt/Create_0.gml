@@ -18,5 +18,9 @@ turret_shoot_disperse = 9;
 turret_proyectile_spr = spr_arrowbolt_proyectile;
 turret_bullet = obj_bullet_arrowbolt;
 
-turret_reload_max = 5;
+turret_is_dispersable = true;
+turret_dispersion = 1;
+turret_max_dispersion = 10;
+
+turret_reload_max = 25;
 turret_reload_time = 0;
