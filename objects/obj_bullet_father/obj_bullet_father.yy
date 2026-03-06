@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shield_father",
+  "%Name":"obj_bullet_father",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bulletTest","path":"objects/obj_bulletTest/obj_bulletTest.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shield_father",
+  "name":"obj_bullet_father",
   "overriddenProperties":[],
   "parent":{
-    "name":"Shields",
-    "path":"folders/Objects/Spaceship/Shields.yy",
+    "name":"Bullets",
+    "path":"folders/Objects/Spaceship/Bullets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

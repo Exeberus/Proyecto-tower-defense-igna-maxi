@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_shield_father",
+  "%Name":"obj_doble_turret_arrowbolt",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_bulletTest","path":"objects/obj_bulletTest/obj_bulletTest.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_shield_father",
+  "name":"obj_doble_turret_arrowbolt",
   "overriddenProperties":[],
   "parent":{
-    "name":"Shields",
-    "path":"folders/Objects/Spaceship/Shields.yy",
+    "name":"Arrow Bolt",
+    "path":"folders/Objects/Spaceship/Turrets/Attack Turrets/Arrow Bolt.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_turret_config",
+    "path":"objects/obj_turret_config/obj_turret_config.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_DobleArrowBolt",
+    "path":"sprites/spr_DobleArrowBolt/spr_DobleArrowBolt.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

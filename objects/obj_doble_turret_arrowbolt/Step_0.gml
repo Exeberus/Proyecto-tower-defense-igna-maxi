@@ -1,3 +1,4 @@
+
 // Deteccion del enemigo
 var nearest_enemy = noone;
 var nearest_distance = turret_range;
@@ -26,10 +27,14 @@ if nearest_enemy != noone {
 			turret_actual_dispersion = clamp(turret_actual_dispersion, 0, turret_max_dispersion);
 		}
 		
-		var proyectile_create = instance_create_layer(x, y, "Bullets", turret_bullet)
+		var proyectile_create = instance_create_layer(x, y+16, "Bullets", turret_bullet);
+		var proyectile_create2 = instance_create_layer(x, y-16, "Bullets", turret_bullet);
 		proyectile_create.proyectile_spd = turret_proyectile_spd;
 		proyectile_create.proyectile_dmg = turret_proyectile_dmg;
 		proyectile_create.proyectile_dir = irandom_range(image_angle - turret_actual_dispersion, image_angle + turret_actual_dispersion);
+		proyectile_create2.proyectile_spd = turret_proyectile_spd;
+		proyectile_create2.proyectile_dmg = turret_proyectile_dmg;
+		proyectile_create2.proyectile_dir = irandom_range(image_angle - turret_actual_dispersion, image_angle + turret_actual_dispersion);
 	}
 	var target_dir = point_direction(x, y, nearest_enemy.x, nearest_enemy.y);
 	var difference = angle_difference(image_angle, target_dir);
