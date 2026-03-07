@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stellarite_droneCollector_mk1",
+  "%Name":"obj_enemy_father",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_stellarite_droneCollector_mk1",
+  "name":"obj_enemy_father",
   "overriddenProperties":[],
   "parent":{
-    "name":"Drone Colectors",
-    "path":"folders/Objects/Spaceship/Minerals Storage/Drone Colectors.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_stellarite_droneCollector_mk1",
-    "path":"sprites/spr_stellarite_droneCollector_mk1/spr_stellarite_droneCollector_mk1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

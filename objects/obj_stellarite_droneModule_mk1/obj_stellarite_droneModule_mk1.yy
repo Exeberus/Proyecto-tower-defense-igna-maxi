@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_stellarite_droneCollector_mk1",
+  "%Name":"obj_stellarite_droneModule_mk1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_stellarite_droneCollector_mk1",
+  "name":"obj_stellarite_droneModule_mk1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Drone Colectors",
-    "path":"folders/Objects/Spaceship/Minerals Storage/Drone Colectors.yy",
+    "name":"Drone Modules",
+    "path":"folders/Objects/Spaceship/Minerals Storage/Drone Modules.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_stellarite_droneCollector_mk1",
-    "path":"sprites/spr_stellarite_droneCollector_mk1/spr_stellarite_droneCollector_mk1.yy",
+    "name":"spr_stellarite_droneModule_mk1",
+    "path":"sprites/spr_stellarite_droneModule_mk1/spr_stellarite_droneModule_mk1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

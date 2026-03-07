@@ -1,1 +1,1 @@
-if(myDroneCollector != noone) { myDroneCollector.update(); }
+if(droneClass != noone) { droneClass.update(); }

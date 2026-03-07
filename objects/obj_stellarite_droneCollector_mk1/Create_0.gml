@@ -1,2 +1,1 @@
-
-myDroneCollector = noone; 
+droneClass = noone; 

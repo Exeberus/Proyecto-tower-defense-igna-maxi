@@ -1,0 +1,1 @@
+droneModule = new DroneModule(id, obj_stellarite_droneCollector_mk1, 2, 1, 360); 
