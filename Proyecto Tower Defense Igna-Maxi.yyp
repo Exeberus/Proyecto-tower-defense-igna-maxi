@@ -126,7 +126,6 @@
     {"id":{"name":"script_turret_bay","path":"scripts/script_turret_bay/script_turret_bay.yy",},},
     {"id":{"name":"spr_arrowbolt_icon","path":"sprites/spr_arrowbolt_icon/spr_arrowbolt_icon.yy",},},
     {"id":{"name":"spr_arrowbolt_proyectile","path":"sprites/spr_arrowbolt_proyectile/spr_arrowbolt_proyectile.yy",},},
-    {"id":{"name":"spr_ArrowBolt_proyectile","path":"sprites/spr_ArrowBolt_proyectile/spr_ArrowBolt_proyectile.yy",},},
     {"id":{"name":"spr_base_Cosmos","path":"sprites/spr_base_Cosmos/spr_base_Cosmos.yy",},},
     {"id":{"name":"spr_big_stellarite","path":"sprites/spr_big_stellarite/spr_big_stellarite.yy",},},
     {"id":{"name":"spr_bulletTest","path":"sprites/spr_bulletTest/spr_bulletTest.yy",},},
