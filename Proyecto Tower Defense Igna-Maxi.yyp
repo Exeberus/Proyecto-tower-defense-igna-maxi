@@ -97,6 +97,7 @@
     {"id":{"name":"obj_bubbleShield_father","path":"objects/obj_bubbleShield_father/obj_bubbleShield_father.yy",},},
     {"id":{"name":"obj_build_controller","path":"objects/obj_build_controller/obj_build_controller.yy",},},
     {"id":{"name":"obj_build_select","path":"objects/obj_build_select/obj_build_select.yy",},},
+    {"id":{"name":"obj_build_turret_bay","path":"objects/obj_build_turret_bay/obj_build_turret_bay.yy",},},
     {"id":{"name":"obj_bullet_arrowbolt","path":"objects/obj_bullet_arrowbolt/obj_bullet_arrowbolt.yy",},},
     {"id":{"name":"obj_bullet_father","path":"objects/obj_bullet_father/obj_bullet_father.yy",},},
     {"id":{"name":"obj_bulletTest","path":"objects/obj_bulletTest/obj_bulletTest.yy",},},
