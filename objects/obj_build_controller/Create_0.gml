@@ -1,6 +1,7 @@
 // Estado de contruccion
 build_mode = false;
 build_object = noone;
+build_name = noone;
 get_build_sprite = noone;
 build_wait_release = true;
 

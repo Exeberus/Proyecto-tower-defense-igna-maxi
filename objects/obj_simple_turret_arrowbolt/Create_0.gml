@@ -6,7 +6,7 @@ turret_level = 1;
 
 turret_health = 5;
 turret_defense = 1;
-turret_range = 700;
+turret_range = 600;
 
 // Movimiento - -
 turret_rot_spd = 3;
