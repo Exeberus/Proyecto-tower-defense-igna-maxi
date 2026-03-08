@@ -17,22 +17,20 @@ if (build_mode) {
     else {
         // Ahora sí puede colocar
 		if build_object == obj_turret_bay {
-			if mouse_check_button_pressed(mb_left) && bay == noone {
+			if (mouse_check_button_pressed(mb_left) && bay == noone) {
 				instance_create_layer(snapped_x, snapped_y, "Turrets", build_object);
 				
-				bay.is_ocuppied = true;
-	            build_mode = false;
-	            build_object = noone;
-				build_wait_release = true;
-				
-			} else if mouse_check_button_pressed(mb_left) && bay != noone && !bay.is_ocuppied {
-	            instance_create_layer(snapped_x, snapped_y, "Turrets", build_object);
-				
-				bay.is_ocuppied = true;
 	            build_mode = false;
 	            build_object = noone;
 				build_wait_release = true;
 			}
+		} else if (bay != noone && mouse_check_button_pressed(mb_left) && bay.is_ocuppied == false) {
+			instance_create_layer(snapped_x, snapped_y, "Turrets", build_object);
+				bay.is_ocuppied = true;
+				
+	            build_mode = false;
+	            build_object = noone;
+				build_wait_release = true;
 		}
     }
 }

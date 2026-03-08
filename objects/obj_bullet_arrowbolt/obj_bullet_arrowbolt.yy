@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Ally Bullets",
-    "path":"folders/Objects/Spaceship/Bullets/Ally Bullets.yy",
+    "path":"folders/Objects/Spaceship/Turrets/Bullets/Ally Bullets.yy",
   },
   "parentObjectId":{
     "name":"obj_bullet_father",
