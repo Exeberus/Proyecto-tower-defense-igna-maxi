@@ -1,0 +1,1 @@
+spaceshipCore = new SpaceshipCore(id, 5);

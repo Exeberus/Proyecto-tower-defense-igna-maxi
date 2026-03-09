@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_base_Cosmos",
-    "path":"sprites/spr_base_Cosmos/spr_base_Cosmos.yy",
+    "name":"spr_spaceship_core",
+    "path":"sprites/spr_spaceship_core/spr_spaceship_core.yy",
   },
   "spriteMaskId":null,
   "visible":true,

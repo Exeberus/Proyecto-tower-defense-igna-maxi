@@ -12,7 +12,7 @@ part_system_depth(trail_sys, depth + 1);
 trail_part = part_type_create();
 part_type_shape(trail_part, pt_shape_pixel);
 part_type_size(trail_part, 1, 3, -0.08, 0);
-part_type_color2(trail_part, c_white, c_yellow);
+part_type_color2(trail_part, c_white, c_blue);
 part_type_alpha2(trail_part, 0.8, 0);
 part_type_life(trail_part, 8, 15);
 part_type_direction(trail_part, direction + 160, direction + 200, 0, 0); 
