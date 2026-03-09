@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_spaceshift_core",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_spaceshift_core",
+  "parent":{
+    "name":"Spaceship",
+    "path":"folders/Scripts/Spaceship.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

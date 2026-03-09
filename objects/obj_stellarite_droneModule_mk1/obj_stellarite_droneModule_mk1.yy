@@ -13,7 +13,10 @@
     "name":"Drone Modules",
     "path":"folders/Objects/Spaceship/Minerals Storage/Drone Modules.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_minerals_storage",
+    "path":"objects/obj_minerals_storage/obj_minerals_storage.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
