@@ -92,6 +92,16 @@ function BubbleField(_bubble) constructor{
 	part_type_color1(part_auraHitted, c_red);
 	part_type_alpha2(part_auraHitted, 0.6, 0);
 	part_type_life(part_auraHitted, 300, 600);
+	//Enemy Filter
+	filter_sys = part_system_create();
+	part_system_depth(filter_sys, bubbleObject.depth - 1);
+	filter_part = part_type_create();
+	part_type_shape(filter_part, pt_shape_pixel);
+	part_type_size(filter_part, 2, 6, -0.000001, 0);
+	part_type_color3(filter_part, c_red, c_yellow, c_orange);
+	part_type_alpha2(filter_part, 0.45, 0);
+	part_type_life(filter_part, 60, 180);
+
 	//Methods
 	static initBubble = function(_creator, _bubbleHp, _radio){
 		creator = _creator;
@@ -109,6 +119,8 @@ function BubbleField(_bubble) constructor{
 		if (part_type_exists(part_aura))       part_type_destroy(part_aura);
 		if (part_system_exists(shieldHit_sys)) part_system_destroy(shieldHit_sys);
 		if (part_type_exists(part_auraHitted)) part_type_destroy(part_auraHitted);
+		if (part_system_exists(filter_sys)) part_system_destroy(filter_sys);
+		if (part_type_exists(filter_part))  part_type_destroy(filter_part);
 		instance_destroy(bubbleObject);
     }
 	
@@ -129,7 +141,7 @@ function BubbleField(_bubble) constructor{
 	static update = function(){
 		if (!instance_exists(creator)) {
 		    state = BUBBLE_STATE.DEAD;
-            instance_destroy(bubbleObject);
+            deathTrigger = false;
             return;
 		}
 
@@ -185,6 +197,13 @@ function BubbleField(_bubble) constructor{
 		if (bubbleActualHp <= 0) {
 		    state = BUBBLE_STATE.FADE_OUT;
 		}
+	}
+	static emitFilterWarning = function(_ex, _ey) {
+	    repeat (10) {
+	        part_particles_create(filter_sys, random_range(_ex-20, _ex+20), random_range(_ey-20, _ey+20), filter_part, 1);
+	    }
+		part_type_color1(part_aura, c_red);
+		_emitRing(radio, 3);
 	}
 }
 function BubbleShield(_shieldHp, _canRegen, _armorRegenCant, _owner, _associatedBubble, _bubbleHp, _bubbleRegenRate, _radio) : ShieldClass(_shieldHp, _canRegen, _armorRegenCant) constructor {

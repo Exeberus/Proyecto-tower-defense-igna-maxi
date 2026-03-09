@@ -1,4 +1,3 @@
-if (bubbleClass != noone) {
-	instance_destroy(other);
-    bubbleClass.takeDamage(other.enemy_health);
+if (bubbleClass != noone && bubbleClass.state == BUBBLE_STATE.ACTIVE) {
+    bubbleClass.emitFilterWarning(other.x, other.y);
 }

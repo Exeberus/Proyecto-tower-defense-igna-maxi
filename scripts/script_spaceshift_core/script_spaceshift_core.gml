@@ -11,12 +11,13 @@ function SpaceshipCore(_owner, _hp) constructor{
     destroyDelay   = 8;
 	
 	static _spawnExplosion = function(_x, _y) {
-		var _exp = instance_create_layer(_x, _y, "Instances", obj_explosion);
+		script_general_explosions(_x,_y, false, 0,0,0,0,0,0);
     }
 	static _destroySequence = function() {
         destroyTimer++;
         if (destroyTimer < destroyDelay) return;
         destroyTimer = 0;
+		destroyDelay = random_range(6, 12);
 
         if (destroyIndex < array_length(modules)) {
             var _mod = modules[destroyIndex];
@@ -27,7 +28,9 @@ function SpaceshipCore(_owner, _hp) constructor{
             }
             destroyIndex++;
         } else {
-            _spawnExplosion(owner.x, owner.y);
+            script_general_explosions(owner.x, owner.y, true, c_white, c_yellow, 8, 20, 60, 120, 5, 15);
+			script_general_explosions(owner.x, owner.y, true, c_red, c_orange, 4, 12, 40, 80, 8, 20);
+			script_general_explosions(owner.x, owner.y, true, c_gray, c_dkgray, 2, 6, 80, 150, 1, 3);
             instance_destroy(owner);
         }
 		global.gameOver = true;
@@ -95,6 +98,9 @@ function SpaceshipCore(_owner, _hp) constructor{
 
 	static update = function(){
 		spriteChangeByHp(owner);
+		if(!isAlive){
+			isDestroying = true;	
+		}
 		if(isDestroying){
 			_destroySequence();	
 		}

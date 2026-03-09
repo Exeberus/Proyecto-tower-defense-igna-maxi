@@ -19,12 +19,14 @@ function EnemiesClass(_owner, _isBoss, _hp, _damage, _shootingRange, _movSpeed) 
 		
 	}
 	static moveToTarget = function(_target){
-		if(_target != noone){
+		if(_target != noone && instance_exists(obj_spaceship_core)){
 			owner.direction = point_direction(owner.x, owner.y, _target.x, _target.y);
 			owner.image_angle = owner.direction;
 			owner.speed = movSpeed;
 		}
-		
+		if(!instance_exists(obj_spaceship_core)){
+			_onDeath();
+		}
 	}
 	static hpRatio = function() { return actualHp / hp; }
 	static spriteChangeByHp = function(_object){
@@ -47,9 +49,6 @@ function EnemiesClass(_owner, _isBoss, _hp, _damage, _shootingRange, _movSpeed) 
 	static _onDeath = function(){
 		isAlive = false;
 	}
-	static _onDestroy = function(){
-	
-	};
 	static cleanUp = function(){
 	
 	};

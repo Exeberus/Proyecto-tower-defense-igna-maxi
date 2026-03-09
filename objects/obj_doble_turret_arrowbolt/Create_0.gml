@@ -23,3 +23,5 @@ turret_max_dispersion = 10;
 
 turret_reload_max = 25;
 turret_reload_time = 0;
+
+isDobleTurret = true;

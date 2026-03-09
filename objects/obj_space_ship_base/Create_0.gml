@@ -1,1 +1,0 @@
-script_base_ship_vars();

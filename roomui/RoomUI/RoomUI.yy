@@ -79,7 +79,7 @@
             {"$GMRFlexPanel":"","%Name":"menu_panel3","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":2,"value":25.0,},"justifyContent":1,"name":"menu_panel3","nodeColour":4294091080,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":100.0,},},
             {"$GMRFlexPanel":"","%Name":"menu_panel4","alignItems":2,"children":[],"flexDirection":0,"height":{"unit":2,"value":25.0,},"justifyContent":1,"name":"menu_panel4","nodeColour":4294091080,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":100.0,},},
           ],"flexDirection":0,"height":{"unit":2,"value":100.0,},"justifyContent":1,"name":"shop_menu","nodeColour":4285548786,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":2,"value":40.0,},},
-      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_shop_menu","nodeColour":4293390920,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UI_shop_menu","nodeColour":4293390920,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
   ],
   "locked":false,
   "name":"RoomUI",

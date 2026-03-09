@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_general_explosions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_general_explosions",
+  "parent":{
+    "name":"Animations",
+    "path":"folders/Scripts/Animations.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

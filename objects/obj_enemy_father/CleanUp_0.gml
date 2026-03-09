@@ -1,0 +1,1 @@
+script_general_explosions(x, y, true, c_red, c_orange, 1, 2, 5, 12, 1, 3);

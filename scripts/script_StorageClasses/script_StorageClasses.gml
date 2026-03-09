@@ -148,11 +148,15 @@ function DroneModule(_droneModule, _droneObject, _droneSpeed,_droneCount, _searc
 	
 	drones = array_create(droneCount, noone);
 	
+	spawnDelay = 100;
+	spawnActualDelay = 0;
+	
 	static _spawnDrone = function(_index){
 		var _inst = instance_create_layer(droneModule.x, droneModule.y, "Instances", droneObject);
 		_inst.droneClass = new DroneUnit(_inst, droneModule, searchRadius, droneSpeed);
 		_inst.depth--;
 		drones[_index] = _inst;
+		script_general_explosions(other.x, other.y, true, c_aqua, c_blue, 1, 4, 15, 35, 2, 6);
 	}
 	static _spawnAllDrones = function(){
 		for (var i = 0; i < droneCount; i++) {
@@ -166,9 +170,14 @@ function DroneModule(_droneModule, _droneObject, _droneSpeed,_droneCount, _searc
         _spawnDrone(droneCount - 1);
 	}
 	static update = function(){
+		if(!droneModule.isAlive) { return }
 		for (var i = 0; i < droneCount; i++) {
             if (!instance_exists(drones[i])) {
-                _spawnDrone(i);
+				spawnActualDelay++;
+				if(spawnActualDelay >= spawnDelay){
+					_spawnDrone(i);
+					spawnActualDelay = 0;
+				}
             } else {
                 drones[i].droneClass.update();
             }
@@ -254,6 +263,7 @@ function DroneUnit(_self, _owner, _searchRadius, _speed) constructor {
 	}
 		
 	static update = function(){
+
 		switch(state) {
 			case DRONE_STATE.IDLE:
 				if(!instance_exists(owner)){

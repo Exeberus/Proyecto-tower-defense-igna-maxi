@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_minerals_storage",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_droneCollector_father",
+  "eventList":[],
   "managed":true,
-  "name":"obj_minerals_storage",
+  "name":"obj_droneCollector_father",
   "overriddenProperties":[],
   "parent":{
-    "name":"Minerals Storage",
-    "path":"folders/Objects/Spaceship/Minerals Storage.yy",
+    "name":"Drone Colectors",
+    "path":"folders/Objects/Spaceship/Minerals Storage/Drone Colectors.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_minerals_storage",
+    "path":"objects/obj_minerals_storage/obj_minerals_storage.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

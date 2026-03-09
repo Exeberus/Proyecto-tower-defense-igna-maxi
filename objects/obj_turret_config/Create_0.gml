@@ -1,4 +1,5 @@
 // Variables de Stats - -
+isAlive = true;
 turret_level = 1;
 
 turret_health = 0;
@@ -23,6 +24,8 @@ turret_max_dispersion = 10;
 
 turret_shooting_time = 0;
 turret_actual_dispersion = 0;
+
+isDobleTurret = false;
 // Variables Main de OBJ - -
 direction = 0;
 

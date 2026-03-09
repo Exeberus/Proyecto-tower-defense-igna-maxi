@@ -4,7 +4,6 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_stellarite_droneCollector_mk1",
@@ -14,8 +13,8 @@
     "path":"folders/Objects/Spaceship/Minerals Storage/Drone Colectors.yy",
   },
   "parentObjectId":{
-    "name":"obj_minerals_storage",
-    "path":"objects/obj_minerals_storage/obj_minerals_storage.yy",
+    "name":"obj_droneCollector_father",
+    "path":"objects/obj_droneCollector_father/obj_droneCollector_father.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
