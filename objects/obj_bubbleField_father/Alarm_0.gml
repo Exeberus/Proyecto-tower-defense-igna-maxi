@@ -1,1 +1,1 @@
-if(bubbleClass != noone){bubbleClass.cleanUp();}
+if(bubbleClass != noone){bubbleClass.cleanUp();} 

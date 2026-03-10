@@ -99,7 +99,7 @@ function BubbleField(_bubble) constructor{
 	part_type_shape(filter_part, pt_shape_pixel);
 	part_type_size(filter_part, 2, 6, -0.000001, 0);
 	part_type_color3(filter_part, c_red, c_yellow, c_orange);
-	part_type_alpha2(filter_part, 0.45, 0);
+	part_type_alpha2(filter_part, 0.15, 0);
 	part_type_life(filter_part, 60, 180);
 
 	//Methods
@@ -139,10 +139,9 @@ function BubbleField(_bubble) constructor{
 		
 	deathTrigger = false;
 	static update = function(){
-		if (!instance_exists(creator)) {
+		if (!instance_exists(creator) && !deathTrigger) {
 		    state = BUBBLE_STATE.DEAD;
             deathTrigger = false;
-            return;
 		}
 
 		switch (state) {
@@ -198,12 +197,20 @@ function BubbleField(_bubble) constructor{
 		    state = BUBBLE_STATE.FADE_OUT;
 		}
 	}
-	static emitFilterWarning = function(_ex, _ey) {
-	    repeat (10) {
-	        part_particles_create(filter_sys, random_range(_ex-20, _ex+20), random_range(_ey-20, _ey+20), filter_part, 1);
+	static emitFilterWarning = function(_ex, _ey, _spriteHeight, _spriteWidth) {
+	    var _hw = _spriteWidth / 2;
+	    var _hh = _spriteHeight / 2;
+
+	    repeat (2) {
+	        var _angle = random(360);
+	        var _px = _ex + lengthdir_x(_hw, _angle);
+	        var _py = _ey + lengthdir_y(_hh, _angle);
+	        part_particles_create(filter_sys, _px, _py, filter_part, 1);
 	    }
-		part_type_color1(part_aura, c_red);
-		_emitRing(radio, 3);
+
+	    part_type_color1(part_aura, c_red);
+	    _emitRing(radio, 3);
+	    part_type_color1(part_aura, c_aqua);
 	}
 }
 function BubbleShield(_shieldHp, _canRegen, _armorRegenCant, _owner, _associatedBubble, _bubbleHp, _bubbleRegenRate, _radio) : ShieldClass(_shieldHp, _canRegen, _armorRegenCant) constructor {
@@ -301,4 +308,3 @@ function BubbleShield(_shieldHp, _canRegen, _armorRegenCant, _owner, _associated
 	//---Init---
 	_spawnBubble();
 }
-	
