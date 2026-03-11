@@ -8,11 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_1FDB7E59","path":"rooms/maxi_test_room/maxi_test_room.yy",},
     {"name":"inst_61477A15","path":"rooms/maxi_test_room/maxi_test_room.yy",},
-    {"name":"inst_6E89406D","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_147FC298","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_162AF269","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_303BC45A","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_7067DB5A","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[

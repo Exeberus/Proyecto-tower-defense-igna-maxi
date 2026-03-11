@@ -31,12 +31,14 @@ if(isAlive){
 			proyectile_create.proyectile_spd = turret_proyectile_spd;
 			proyectile_create.proyectile_dmg = turret_proyectile_dmg;
 			proyectile_create.proyectile_dir = irandom_range(image_angle - turret_actual_dispersion, image_angle + turret_actual_dispersion);
+			proyectile_create.trailColor = c_blue;
 			if(isDobleTurret){
 				proyectile_create.y -= 16;
 				var proyectile_create2 = instance_create_layer(x, y+16, "Bullets", turret_bullet)
 				proyectile_create2.proyectile_spd = turret_proyectile_spd;
 				proyectile_create2.proyectile_dmg = turret_proyectile_dmg;
 				proyectile_create2.proyectile_dir = irandom_range(image_angle - turret_actual_dispersion, image_angle + turret_actual_dispersion);
+				proyectile_create2.trailColor = c_blue;
 			}
 		}
 		var target_dir = point_direction(x, y, nearest_enemy.x, nearest_enemy.y);

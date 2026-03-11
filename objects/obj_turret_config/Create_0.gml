@@ -1,7 +1,6 @@
 // Variables de Stats - -
 isAlive = true;
 turret_level = 1;
-
 turret_health = 0;
 turret_defense = 0;
 turret_range = 0;
