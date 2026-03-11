@@ -1,4 +1,6 @@
 event_inherited();
 hp = 5;
 actualHp = hp;
-droneModule = new DroneModule(id, obj_stellarite_droneCollector_mk1, 2, 1, 360); 
+droneModule = new DroneModule(id, obj_stellarite_droneCollector_mk1, 2, 1, 360);
+
+layer = layer_get_id("Turrets");
