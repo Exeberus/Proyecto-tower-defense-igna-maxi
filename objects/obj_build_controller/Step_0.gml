@@ -20,17 +20,10 @@ if (build_mode) {
 			if (mouse_check_button_pressed(mb_left) && bay == noone) {
 				instance_create_layer(snapped_x, snapped_y, "Turrets", build_object);
 				
-	            build_mode = false;
-	            build_object = noone;
-				build_wait_release = true;
 			}
 		} else if (bay != noone && mouse_check_button_pressed(mb_left) && bay.is_ocuppied == false) {
 			instance_create_layer(snapped_x, snapped_y, "Turrets", build_object);
 				bay.is_ocuppied = true;
-				
-	            build_mode = false;
-	            build_object = noone;
-				build_wait_release = true;
 		}
     }
 }
